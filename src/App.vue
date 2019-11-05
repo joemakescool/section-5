@@ -1,17 +1,23 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <template id="thing">
+      <h1>{{ title }}</h1>
+    </template>
 
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+  setTimeout(()=> {
+    console.log('Joe\'s message')
+  }, 3000);
 
 export default {
   name: 'app',
   components: {
-    
+
   }
 }
 </script>
