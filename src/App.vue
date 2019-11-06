@@ -1,14 +1,17 @@
 <template>
   <div id="app">
+
     <img alt="Vue logo" src="./assets/logo.png">
     <template id="thing">
       <h1>{{ title }}</h1>
       <button @click="title = 'Changed'">Update Title</button>
       <button @click="destroy">Destroy</button>
     </template>
-
   </div>
 </template>
+
+
+
 
 <script>
 
